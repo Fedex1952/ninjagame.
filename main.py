@@ -1,5 +1,3 @@
-import time
-from colorama import Fore
 import pygame
 pygame.init()
 # skapar en klocka kopplat till spelet som är satt till 24
