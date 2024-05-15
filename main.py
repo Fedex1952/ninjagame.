@@ -1,7 +1,6 @@
 import time
 from colorama import Fore
 import pygame
-
 pygame.init()
 # skapar en klocka kopplat till spelet som är satt till 24
 clock = pygame.time.Clock()
@@ -41,7 +40,7 @@ RightBorder = 740
 GroundLevel = 370
 Timer = 0
 
-# Laddar sprite 80x80
+# Laddar sprite från png 80x80
 sprite_image = pygame.transform.scale(pygame.image.load("Eninja.png"), (80, 80))
 screen.blit(sprite_image, (x, y))
 # Huvudloop
